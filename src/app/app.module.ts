@@ -5,12 +5,14 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatGridListModule
 import { AppComponent } from './app.component';
 import { DynamicTileComponent } from './dynamic-tile/dynamic-tile.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DynamicTileComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    img {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        z-index: 1;
+        float: left;
+        border:5px solid #008cba;
+      }
+    #name {
+        top: 110px;
+        left: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    img {
+        display: none;
+    }
+    #name {
+        text-align: center;
+    }
+    h1, h4, h5 {
+        text-align: center;
+    }
+}
+
+div.jumbotron {
+    background-image: url(../../assets/fade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
