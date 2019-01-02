@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DynamicTileComponent } from './dynamic-tile/dynamic-tile.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { SummarySectionComponent } from './summary-section/summary-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DynamicTileComponent,
     ToolbarComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    SummarySectionComponent
   ],
   imports: [
     BrowserModule,
