@@ -7,6 +7,8 @@ import { DynamicTileComponent } from './dynamic-tile/dynamic-tile.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { SummarySectionComponent } from './summary-section/summary-section.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ContainerComponent } from './container/container.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { SummarySectionComponent } from './summary-section/summary-section.compo
     DynamicTileComponent,
     ToolbarComponent,
     JumbotronComponent,
-    SummarySectionComponent
+    SummarySectionComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import { SummarySectionComponent } from './summary-section/summary-section.compo
     MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
-    MatGridListModule
+    MatGridListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
